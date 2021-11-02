@@ -1,5 +1,6 @@
 # Bug List
 
-> Make a list of the things that don't work as expected. Keep a list of things that you have fixed and try to document how you solved them.
-
-1. Problem: *Describe your problem here* 
+1. Problem: How to insert an image in the main page.
+2. How to put SEND button under the form?
+3. How to draw the headers to the edge?
+4. 
