@@ -1,8 +1,8 @@
 # Time Report
+2021-10-28 10:00 Worked for 4 hours.I have done:
+*Main page structure and colors
+*About me page structure
 
-> Write about what you have done and how long you have worked on each part of the project.
-
-For example: 
-
-- 2021-10-15 18:00 Worked for 1 hour. I have done:
-  - *List the things you have done.*
+2021-11-03 10:00 Worked for 3 hours. I have done:
+*Contact form
+*Separated the css style information
