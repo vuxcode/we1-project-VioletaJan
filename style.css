@@ -1,7 +1,7 @@
-     body {
+body {
      background: #D099D4;
      }
-     header{
+header{
      background: #F7CB89;
      list-style-type: none;
      margin: 0;
@@ -11,10 +11,10 @@
 h1{
   display: float;
   font-family: 'Amatic SC', cursive;
-  font-size: 12px;
+  font-size: 20px;
   display: block;
   color: whitesmoke;
-  padding: 10px 0px;
+  padding: 0px 0px;
   text-align: center;
   text-decoration: none;
 }
@@ -34,7 +34,7 @@ h2{
   float: left;
 }
 body {
-    background: #ADE6DB;
+  background: #ADE6DB;
   }
   ul{
   background: #D099D4;
@@ -57,3 +57,12 @@ li a {
 li a:hover {
   background-color: #F7CB89;
 }
+fieldset{
+    font-size: 20px;
+    background: #D099D4;
+    border: dashed;
+    padding: 30px;
+    margin: 100px 500px;
+    width: 200px;
+    font-family: 'Amatic SC', cursive;
+    
