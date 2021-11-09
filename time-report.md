@@ -10,3 +10,6 @@
 *Created a text in about page
 *Changed the appearance
 
+2021-11-06 Worked for 0,5 hour. I have done:
+*SOLVED 5 bugs.
+
