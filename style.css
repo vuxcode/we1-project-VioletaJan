@@ -31,17 +31,14 @@ h1{
   text-decoration: none;
 }
 div{
-  margin: 20px;
+  margin: 40px 250px;
   float: left;
-  height: 100px;
-  width: 133px;
 }
 img{
   border-radius: 10%;
-  margin: 30px;
   float: left;
-  width: 300px;
-  height: 500px;
+  width: 800px auto;
+  /*margin: auto, 0px;*/
 }
 h2{
   margin: 30px;
@@ -49,14 +46,17 @@ h2{
   float: left;
 }
 
-  ul{
+ul{
   background: #D099D4;
   list-style-type: none;
   margin: 0;
   overflow: hidden;
   padding: 0;
   width: 60px;
-  height: 600px;
+  height: 609px;
+  position: absolute;
+  top: 0px;
+  left: 0;
 }
 li a {
  font-family: 'Amatic SC', cursive;
@@ -76,8 +76,20 @@ li a:hover {
   padding: 5px 10px;
   background: #FDBC5B;
   border: dashed whitesmoke;
-  margin: 5px 596px;
-
+  margin: 0px auto 0px 620px;
+}
+.styled.active {
+  color: orange;
+}
+.styled.hover {
+  background: blue;
+}
+.element.style{
+  margin: 100px auto;
+}
+form{
+  margin: 0px auto;
+  with: 50%;
 }
 fieldset{
     border-radius: 10%;
@@ -85,6 +97,6 @@ fieldset{
     background: linear-gradient(#D099D4, #D17ED7);
     border: dashed whitesmoke;
     padding: 30px;
-    margin: 100px 500px 0px 500px;
+    margin: 100px auto 0px;
     width: 200px;
     font-family: 'Amatic SC', cursive;
