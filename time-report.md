@@ -13,3 +13,7 @@
 2021-11-06 Worked for 0,5 hour. I have done:
 *SOLVED 5 bugs.
 
+2021-11-10 Worked for 1,5 hours. I have done:
+*Inserted Maps;
+*Fixed the edges in ABOUT page.
+
