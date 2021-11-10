@@ -76,7 +76,7 @@ li a:hover {
   padding: 5px 10px;
   background: #FDBC5B;
   border: dashed whitesmoke;
-  margin: 0px auto 0px 620px;
+  margin: 10px auto 0px 610px;
 }
 .styled.active {
   color: orange;
@@ -90,6 +90,14 @@ li a:hover {
 form{
   margin: 0px auto;
   with: 50%;
+}
+main{
+  width: 500px;
+  height: auto;
+  margin: 10px auto 0 200px;
+}
+iframe{
+  margin: 50px 430px;
 }
 fieldset{
     border-radius: 10%;
