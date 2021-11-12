@@ -17,3 +17,8 @@
 *Inserted Maps;
 *Fixed the edges in ABOUT page.
 
+2021-11-12 Worked for 2 hours. I havedone:
+*Menu sidebar is done completely.
+*Inserted img.
+*Created CV page and did the links from other pages.
+*Made some corrections with the contact page (map, margins).
