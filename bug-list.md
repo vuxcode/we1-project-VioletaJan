@@ -8,11 +8,13 @@
 6. Iframe ruins the contact page. SOLVED by doing it not the way I wanted.
 7. MENU bar disappears when scrolling down. SOLVED
 8. Impossible to publish the page. SOLVED
-9. 
-10. I can not move images how I want.
-11. How to write the text in 3 different columns in CV page.
-12. What kind of logo should I use?
-13. Page doesn't work on smaller screen.
+11. How to write the text in 3 different columns in CV page. SOLVED
+13. Page doesn't work on smaller screen. HALF SOLVED
+14. 
+15. I can not move images how I want.
+17. What kind of logo should I use?
+18. How to insert accessibility atributes?
+19. How to manege EXPERIENSE EDUCATION and SKILLS labels separately?
 
 Whats left:
 1. Accessibility
