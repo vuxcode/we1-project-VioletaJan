@@ -31,3 +31,10 @@
 *Wrote CSS in alphabetical order.
 *Inserted img.
 *Created home page.
+
+2021-11-19 Worked for 3 hours. I have done:
+*Inserted CV page information;
+*Creater appearance for CV sections;
+*Added more borders for images and texts;
+*Added accessibility elements for img;
+
