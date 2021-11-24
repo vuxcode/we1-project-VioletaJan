@@ -4,8 +4,8 @@
   font-family: 'Amatic SC', cursive;
 }
 body {
-  background: linear-gradient(#9FD4D8, #7FD5DB,#9FD4D8);
-  height: 100%;
+     background: linear-gradient(#9FD4D8, #7FD5DB,#9FD4D8);
+     height: 100%;
      }
 div{
   float: left;
@@ -23,6 +23,9 @@ div p{
   padding: 20px;
   width: 300px;
   text-align: left;
+}
+div img{
+  float: left;
 }
 fieldset{
     border-radius: 10%;
@@ -63,6 +66,23 @@ h2{
   text-decoration: dashed underline;
   text-transform: uppercase;
   font-size: 35px;
+}
+.heading-cv-section{
+  margin: 30px auto 0px 130px;
+  float: left;
+  font-weight: bolder;
+  letter-spacing: 6px;
+  width:  auto;
+  text-decoration: dashed underline;
+  text-transform: uppercase;
+  font-size: 20px;
+  color: black;
+  float: left;
+  text-align: justify;
+  background: linear-gradient(#F7CB89, #FDBC5B);
+  border:  dashed whitesmoke 2px;
+  border-radius: 10%;
+  padding: 12px;
 }
 h3{
   margin: 30px auto 10px 50px;
@@ -156,11 +176,28 @@ p {
 }
 .styled:active {
   color: #FDBC5B;
-
 }
 .styled:hover {
   background: #D099D4;
 }
 .element.style{
   margin: 100px auto;
+}
+#wrapper{
+  width:100%
+}
+.row{
+    float: ;
+    height: 300px;
+    Margin: 0 auto 20px;
+    width: 80%;
+    }
+.cell_1{
+  width: 50%;
+  margin: 0;
+  display: inline-block;
+  hight: 100%;
+  }
+.cell_2{
+  width: 50%
 }
