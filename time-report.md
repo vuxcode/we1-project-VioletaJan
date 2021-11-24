@@ -38,3 +38,7 @@
 *Added more borders for images and texts;
 *Added accessibility elements for img;
 
+2021-11-24 Worked for 1 hour. I have done:
+*Solved the problem in CV page with EDUCATION, EXPERIENCE and SKILLS headings.
+*Find the bug why I cand move images.
+
