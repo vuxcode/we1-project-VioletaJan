@@ -13,10 +13,8 @@
 14. How to manege EXPERIENSE EDUCATION and SKILLS labels separately? SOLVED
 15. 
 16. I can not move images how I want.
-17. What kind of logo should I use?
 18. How to insert accessibility atributes?
 
 Whats left:
 1. Accessibility
-2. Java script?
-3. Validate the code
+2. Validate the code
