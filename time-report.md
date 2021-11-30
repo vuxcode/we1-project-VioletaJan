@@ -45,3 +45,7 @@
 2021-11-26 Worked for 1,5 hour. I have done:
 *Created classes for all pages div's.
 *Moved the img in home page to the right place.
+
+2021-11-30 Worked for 1,5 hour. I have done:
+*Gave ID to all <main>.
+*Made table-layout in about page for img!
