@@ -6,8 +6,13 @@
 }
 body {
   overflow-x: hidden;
-  background: linear-gradient(#9FD4D8, #7FD5DB,#9FD4D8);
-  height: 100%;
+  /*background: linear-gradient(#9FD4D8, #7FD5DB,#9FD4D8);*/
+  /*height: 100%;*/
+  background-image: url(https://superhqwallpapers.com/wp-content/uploads/2021/08/Light-Orange-Pink-Red-Smoke-White-Background-4K-5K-HD-scaled.jpg);
+  width: 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover ;
   }
 #about-page div,
 #my-cv div{
@@ -24,20 +29,26 @@ body {
   margin: auto auto 0 -40px
 }
 div p{
+  background-color: linear-gradient(#D099D4, #D182D7);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(6px) saturate(50%);
   line-height: 29px;
-  border: dotted whitesmoke 2px;
+  border: solid whitesmoke 2px;
   border-radius: 10%;
-  background: linear-gradient(#D099D4, #D182D7);
+  /*background: linear-gradient(#D099D4, #D182D7);*/
   margin: 30px auto 10px 70px;
   padding: 20px;
   width: 300px;
   text-align: left;
 }
 fieldset{
-    border-radius: 10%;
+   background-color: linear-gradient(#D099D4, #D182D7);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(100px) saturate(90%);
+  border-radius: 10%;
     font-size: 20px;
-    background: linear-gradient(#D099D4, #D17ED7);
-    border: dashed whitesmoke;
+    /*background: linear-gradient(#D099D4, #D17ED7);*/
+    border: solid whitesmoke;
     padding: 30px;
     margin: 43px auto 0px;
     width: 200px;
@@ -57,19 +68,19 @@ h1{
   font-family: 'Amatic SC', cursive;
   font-size: 20px;
   display: block;
-  color: whitesmoke;
+  color: black;
   padding: 0px 0px;
   text-align: center;
   text-decoration: none;
 }
 h2{
   margin: 30px auto 50px 100px;
-  color: whitesmoke;
+  color: #80808099;
   float: left;
   font-weight: bolder;
   letter-spacing: 15px;
   width:  auto;
-  text-decoration: dashed underline;
+  text-decoration: solid underline;
   text-transform: uppercase;
   font-size: 35px;
 }
@@ -79,14 +90,14 @@ h2{
   font-weight: bolder;
   letter-spacing: 6px;
   width:  auto;
-  text-decoration: dashed underline;
+  text-decoration: solid underline;
   text-transform: uppercase;
   font-size: 20px;
   color: black;
   float: left;
   text-align: justify;
-  background: linear-gradient(#F7CB89, #FDBC5B);
-  border:  dashed whitesmoke 2px;
+  background: #f1a6b7;
+  border:  solid whitesmoke 2px;
   border-radius: 10%;
   padding: 12px;
 }
@@ -95,10 +106,12 @@ h3{
   text-align: center;
 }
 h3 i{
-  background: linear-gradient(#D099D4, #D182D7);
+  background-color: linear-gradient(#D099D4, #D182D7);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(6px) saturate(50%);
   padding: 40px;
   border-radius: 10%;
-  border: dashed whitesmoke 2px;
+  border: solid whitesmoke 2px;
   float: left;
   line-height: 55px;
   clear: both;
@@ -109,15 +122,19 @@ h4{
   line-height: 42px
 }
 header{
-     background: linear-gradient(#F7CB89, #FDBC5B);
+     /*background: linear-gradient(#F7CB89, #FDBC5B);*/
+  background-color: linear-gradient(#D099D4, #D182D7);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(6px) saturate(50%);
      list-style-type: none;
      border: solid whitesmoke 2px;
      margin: 0;
      overflow: hidden;
      padding: 10px;
+     width: auto;
     }
 img{
-  border: dashed whitesmoke 2px;
+  border: solid whitesmoke 2px;
   border-radius: 10%;
   margin: auto, 0px;
 }
@@ -131,13 +148,13 @@ li a {
  font-family: 'Amatic SC', cursive;
  font-size: 19px;
   display: block;
-  color: whitesmoke;
+  color: #80808099;
   padding: 63px 0px;
   text-align: center;
   text-decoration: none;
 }
 li a:hover {
-  background-color: #F7CB89;
+  background-color: #f1a6b7;
 }
 #home-page-main main,
 main{
@@ -151,7 +168,10 @@ main{
   margin: 10px auto 0 120px;
 }
 ul{
-  background:linear-gradient(#D099D4, #D182D7);
+  background-color: linear-gradient(#D099D4, #D182D7);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(6px) saturate(50%);
+  /*background:linear-gradient(#EFB1D0, #D182D7);*/
   border: solid whitesmoke 2px;
   list-style-type: none;
   margin: 0;
@@ -165,11 +185,14 @@ ul{
   bottom: 0;
 }
 p {
+  background-color: linear-gradient(#D099D4, #D182D7);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(6px) saturate(50%);
   color: black;
   float: left;
   text-align: justify;
-  background: linear-gradient(#F7CB89, #FDBC5B);
-  border:  dashed whitesmoke 2px;
+  /*background: linear-gradient(#F7CB89, #FDBC5B);*/
+  border:  solid whitesmoke 2px;
   border-radius: 10%;
   padding: 10px;
 }
@@ -180,8 +203,8 @@ p {
   border-radius: 10px;
   color: whitesmoke;
   padding: 5px 10px;
-  background: #FDBC5B;
-  border: dashed whitesmoke;
+  background: #fd606e;
+  border: solid whitesmoke;
   margin: 10px auto 30px 290px;
   cursor: pointer;
 }
@@ -189,7 +212,7 @@ p {
   color: #FDBC5B;
 }
 .styled:hover {
-  background: #D099D4;
+  background: #fd606e42;
 }
 .element.style{
   margin: 100px auto;
