@@ -5,9 +5,10 @@
   font-family: 'Amatic SC', cursive;
 }
 body {
-     background: linear-gradient(#9FD4D8, #7FD5DB,#9FD4D8);
-     height: 100%;
-     }
+  overflow-x: hidden;
+  background: linear-gradient(#9FD4D8, #7FD5DB,#9FD4D8);
+  height: 100%;
+  }
 #about-page div,
 #my-cv div{
   float: left;
