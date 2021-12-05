@@ -138,6 +138,8 @@ h4{
 }
 h5{
  font-size: 20px;
+ margin: 80px auto 0px;
+ padding: 0 0 0 66px;
 }
 header{
      /*background: linear-gradient(#F7CB89, #FDBC5B);*/
