@@ -12,8 +12,7 @@
 12. Page doesn't work on smaller screen. HALF SOLVED
 13. How to manege EXPERIENSE EDUCATION and SKILLS labels separately? SOLVED 
 14. I can not move images how I want. SOLVED
-15. How to insert accessibility atributes?
-16. The width of the home page and contact page is not correct.
+16. The width of the home page and contact page is not correct.SOLVED
 
 Whats left:
 1. Accessibility
