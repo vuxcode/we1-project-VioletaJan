@@ -49,3 +49,9 @@
 2021-11-30 Worked for 1,5 hour. I have done:
 *Gave ID to all <main>.
 *Made table-layout in about page for img!
+ 
+ 2021-12-01 Worked for 2 hours:
+ *Changed the whole appearance on the page (background img, colors, blur).
+  
+ 2021-12-03 Worked for 2 hours. I have done:
+ *Used flex for contact page;
