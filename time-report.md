@@ -55,3 +55,5 @@
   
  2021-12-03 Worked for 2 hours. I have done:
  *Used flex for contact page;
+ 
+ --------29 hours total----------
