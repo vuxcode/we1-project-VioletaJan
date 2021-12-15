@@ -56,4 +56,9 @@
  2021-12-03 Worked for 2 hours. I have done:
  *Used flex for contact page;
  
- --------29 hours total----------
+ 2021-12-15 Worked for 1 hour. I have done:
+ *Validated the code.
+ *Solved problems;
+ *Added Google fonts.
+ 
+ --------30 hours total----------
