@@ -13,7 +13,7 @@
 13. How to manege EXPERIENSE EDUCATION and SKILLS labels separately? SOLVED 
 14. I can not move images how I want. SOLVED
 16. The width of the home page and contact page is not correct.SOLVED
+17. Accessibility - DONE
+18. Validate the code - DONE.
+19. Cursive font on the phone - SOLVED.
 
-Whats left:
-1. Accessibility
-2. Validate the code
