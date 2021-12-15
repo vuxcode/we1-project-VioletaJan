@@ -1,10 +1,9 @@
-/*@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Nunito:wght@300;700&display=swap');*/
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@500&family=Shalimar&display=swap');
 *{
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: cursive;
-  /*font-family: 'Nunito', sans-serif;*/
+  font-family: 'Baloo Bhaijaan 2', calibri;
 }
 body {
   overflow-x: hidden;
@@ -69,7 +68,7 @@ fieldset{
   padding: 30px;
   margin: 43px auto 0px;
   width: 200px;
-  font-family: 'Amatic SC', cursive;
+  font-family: 'Baloo Bhaijaan 2', calibri;
   }
 figure{
   width: 100px;
@@ -82,7 +81,7 @@ form{
 }
 h1{
   display: float;
-  font-family: 'Amatic SC', cursive;
+  font-family: 'Baloo Bhaijaan 2', calibri;
   font-size: 20px;
   display: block;
   color: black;
@@ -95,7 +94,7 @@ h2{
   color: #80808099;
   float: left;
   font-weight: bolder;
-  letter-spacing: 15px;
+  letter-spacing: 18px;
   width:  auto;
   text-decoration: solid underline;
   text-transform: uppercase;
@@ -167,7 +166,7 @@ iframe{
   border-color: orange;
 }
 li a {
- font-family: 'Amatic SC', cursive;
+ font-family: 'Baloo Bhaijaan 2', calibri;
  font-size: 19px;
   display: block;
   color: #80808099;
