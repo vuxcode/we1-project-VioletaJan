@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@500&family=Shalimar&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@500&family=Nunito:wght@200&family=Shalimar&display=swap');
 *{
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: 'Baloo Bhaijaan 2', calibri;
+  font-family: 'Baloo Bhaijaan 2', sans-serif;
 }
 body {
   overflow-x: hidden;
@@ -68,7 +68,7 @@ fieldset{
   padding: 30px;
   margin: 43px auto 0px;
   width: 200px;
-  font-family: 'Baloo Bhaijaan 2', calibri;
+  font-family: 'Baloo Bhaijaan 2', sans-serif;
   }
 figure{
   width: 100px;
@@ -81,7 +81,7 @@ form{
 }
 h1{
   display: float;
-  font-family: 'Baloo Bhaijaan 2', calibri;
+  font-family: 'Baloo Bhaijaan 2', sans-serif;
   font-size: 20px;
   display: block;
   color: black;
@@ -166,7 +166,7 @@ iframe{
   border-color: orange;
 }
 li a {
- font-family: 'Baloo Bhaijaan 2', calibri;
+ font-family: 'Baloo Bhaijaan 2', sans-serif;
  font-size: 19px;
   display: block;
   color: #80808099;
