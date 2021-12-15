@@ -7,8 +7,6 @@
 }
 body {
   overflow-x: hidden;
-  /*background: linear-gradient(#9FD4D8, #7FD5DB,#9FD4D8);*/
-  /*height: 100%;*/
   background-image: url(https://superhqwallpapers.com/wp-content/uploads/2021/08/Light-Orange-Pink-Red-Smoke-White-Background-4K-5K-HD-scaled.jpg);
   width: 100%;
   background-position: center center;
@@ -76,7 +74,7 @@ figure{
   float: left;
 }
 form{
-  margin: 45px auto;
+  margin: 21px auto;
   width: 50%;
 }
 h1{
@@ -139,7 +137,7 @@ h4{
 }
 h5{
  font-size: 20px;
- margin: 80px auto 0px;
+ margin: 60px auto 0px;
  padding: 0 0 0 66px;
 }
 header{
