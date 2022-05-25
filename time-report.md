@@ -1,64 +1,48 @@
 # Time Report
-2021-10-28 10:00 Worked for 4 hours.I have done:
-*Main page structure and colors
-*About me page structure
 
-2021-11-03 10:00 Worked for 5 hours. I have done:
-*Contact form
-*Separated the css style information
-*2 problems solved (button, edges)
-*Created a text in about page
-*Changed the appearance
+> Write about what you have done and how long you have worked on each part of the project.
 
-2021-11-06 Worked for 0,5 hour. I have done:
-*SOLVED 5 bugs.
+For example: 
 
-2021-11-10 Worked for 1,5 hours. I have done:
-*Inserted Maps;
-*Fixed the edges in ABOUT page.
-
-2021-11-12 Worked for 2 hours. I have done:
-*Menu sidebar is done completely.
-*Inserted img.
-*Created CV page and did the links from other pages.
-*Made some corrections with the contact page (map, margins).
-
-2021-11-18 Worked for 5 hours. I have done:
-*Inserted home page in the menu.
-*Inserted home page icon.
-*Solved the problem with SEND button, added ux experience.
-*Created 3 sections for CV page.
-*Wrote CSS in alphabetical order.
-*Inserted img.
-*Created home page.
-
-2021-11-19 Worked for 3 hours. I have done:
-*Inserted CV page information;
-*Creater appearance for CV sections;
-*Added more borders for images and texts;
-*Added accessibility elements for img;
-
-2021-11-24 Worked for 1 hour. I have done:
-*Solved the problem in CV page with EDUCATION, EXPERIENCE and SKILLS headings.
-*Find the bug why I cand move images.
-
-2021-11-26 Worked for 1,5 hour. I have done:
-*Created classes for all pages div's.
-*Moved the img in home page to the right place.
-
-2021-11-30 Worked for 1,5 hour. I have done:
-*Gave ID to all <main>.
-*Made table-layout in about page for img!
- 
- 2021-12-01 Worked for 2 hours:
- *Changed the whole appearance on the page (background img, colors, blur).
-  
- 2021-12-03 Worked for 2 hours. I have done:
- *Used flex for contact page;
- 
- 2021-12-15 Worked for 1 hour. I have done:
- *Validated the code.
- *Solved problems;
- *Added Google fonts.
- 
- --------30 hours total----------
+- 2022-04-06 Worked for 2 hour.
+  - Created the variables and buttons.
+- 2022-04-12 Worked for 1 hour.
+  - Rewrite the code for questions.
+  - added hidden and vissable button options.
+  - added "back" button.
+- 2022-04-13 Worked for 2 hours.
+  - Made Latte part work! (right questions to the right answers);
+- 2022-04-19 Worked for 3 hours.
+  - For loop for manage the answers, array to collect the problems, array to give answers.
+  - Work with help of a friend.
+- 2022-04-25 Worked for 1 hour.
+  - Tried to add radio buttons for frappino.
+- 2022-04-26 Worked for 0,5 hour.
+  - Tried to fix frappino problem. Lost.
+- 2022-04-28 Worked for 2 hours.
+  - Tried to get frappino questions. Managed to give frapino questions for all drinks.
+- 2022-05-08 Worked for 1 hour.
+ - Deleted Frapino option.
+ - Added Cortado option.
+ - Tried to add a timer. Failed.
+- 2022-05-18 Worked for 1 hour.
+  - Tried to add a timer. Not working.
+  - Created stylsheet file and connected to html.
+- 2022-05-18 Worked for 2 hours.
+ - CSS stylesheet.
+- 2022-05-19 Worked for 2 hours.
+  - Tried to make timer work. Failed.
+- 20022-05-22 Worked for 2 hours.
+  - Tried to make timer work. Failed.
+  - Tried to change demo version as I wanted. Didn't work as expected. 
+- 2022-05-23 Worked for 2,5 hours.
+  - Solved bugs with buttons.
+  - Changed the appearance then finishing the game.
+- 2022-05-24 Worked for 3,5 hours.
+  - Added a timer (still not the final result, but part of it works)
+  - Project summary and user guide.
+- 2022-05-25 Worked for 1,5 hours.
+  - Fixed CSS bug with transition;
+  - Fixed the backround to be in the whole screen;
+  - Added stop function for timer; Not working as expected;
+ //27 hours in TOTAL
