@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@500&family=Nunito:wght@200&family=Shalimar&display=swap');
+
+*{
+    font-family: 'Baloo Bhaijaan 2', sans-serif;
+    text-align: center;    
+    margin: 0;
+    padding: 0;
+}
+body {
+  background-image: url(https://www.wallpaperflare.com/static/481/479/767/coffee-grains-leaves-board-wallpaper.jpg);
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover ;
+    }
+h1{
+    color: whitesmoke;
+    text-shadow: #422d11;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(6px) saturate(50%);
+}
+
+div{
+
+    color: whitesmoke;
+    text-shadow: #422d11;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(6px) saturate(50%);
+    padding: 30px;
+    margin: 20px auto 0px;
+    width: 446px;
+    border: double;
+    border-radius: 10px;
+}
+.styled{
+
+    color: black;
+    display: block;
+    background-color: #422d11;
+    border-radius: 10px;
+    border: 2px double #cccccc;
+    color: #eeeeee;
+    text-align: center;
+    font-size: 16px;
+    padding: 10px;
+    width: 107px;
+    cursor: pointer;
+    margin: 5px auto;
+
+
+}
+
+.styled2{
+   
+    display: block;
+    background-color: #b69759;
+    border-radius: 10px;
+    border: 2px double #cccccc;
+    color: #eeeeee;
+    text-align: center;
+    font-size: 16px;
+    padding: 10px;
+    width: 107px;
+    cursor: pointer;
+    margin: 30px auto 5px;
+}
+
+.styled3{
+    color: green;
+    display: block;
+    background-color: #354207;
+    border-radius: 10px;
+    border: 2px double #cccccc;
+    color: #eeeeee;
+    text-align: center;
+    font-size: 16px;
+    padding: 10px;
+    width: 107px;
+    cursor: pointer;
+    margin: 5px auto;
+}
+
+button:hover {
+    background-color: #516c14;
+  }
+
+  button.styled2:hover{
+      background-color: #7e6941;
+  }
+
+.mesage{
+    color: red;
+}

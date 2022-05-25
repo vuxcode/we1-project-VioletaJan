@@ -1,1 +1,254 @@
-<!-- Start writing your project code in this file! -->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+<link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+
+<div>
+<h1 id="output"></h1>
+<h2 id="output2"></h2>
+<button id ="button1" onclick="myFunction(1); count()" class = "styled">Latte</button>
+<button id ="button2" onclick="myFunction(2); count()" class = "styled">Cappuchino</button>
+<button id ="button3" onclick="myFunction(3); count()" class = "styled">Cortado</button>
+<button id = "back" onclick="back()" class = "styled2">Back</button>
+<button id = "restart" onclick="restart()" class = "styled3">Restart</button>
+</div>
+
+<script>
+
+// Create variables in array
+var coffee = ["Latte", "Cappuchino", "Cortado"];
+
+//Create questions for caffee
+var questionsCoffee =[
+  "WELCOME TO COFFEE MAKING GAME! \n\nPlease choose a coffee you want to make: ",
+  "1. What size would you like?",
+  "2. How many grams of espresso you should grind?",
+  "3. How much milk would you like to add?",
+  "4. How long will you heat the milk?",
+  "5. How much foam you should get?"
+]
+console.log('test');
+var answers = [
+  ["Small", "Standart"],
+  ["9g", "18g", "36g"],
+  ["50ml", "100ml", "150ml"],
+  ["10s","15s", "20s" ],
+  ["1-2 cm", "2-3 cm", "3-4 cm"]
+]
+//console.log(answers);
+
+//These are the right array for the perfect drink.
+var smallLatte = [1, 1, 2, 2, 2, 1];
+var bigLatte = [1, 2, 3, 3, 3, 1];
+var cappuchino = [2, 1, 3, 2, 2, 2];
+var cortado = [3, 2, 1, 1, 1, 1];
+
+//Store user inputs in an array
+var input = [];
+console.log(input);
+
+//Create variables to the buttons
+var myButton1 = document.getElementById("button1");
+var myButton2 = document.getElementById("button2");
+var myButton3 = document.getElementById("button3");
+var myButton4 = document.getElementById("back");
+var myButton5 = document.getElementById("restart");
+
+// Finding the output element on the screen
+var output = document.getElementById("output");
+var output2 = document.getElementById("output2");
+
+//Create variable for collecting the questions in an array
+//This gives the general question because 0 is my first question on coffeequestions
+var index = 0;  
+output.innerText = questionsCoffee[index];
+console.log ("Output updated!");
+myButton4.style.visibility = "hidden";
+myButton5.style.visibility = "hidden";
+
+// Create back funktion 
+function back(){
+  //stop Timer;
+  //if the index is on the first question or above
+  if (index > 1){
+    // Then we can reduce the index
+    index--;
+  }
+  // Check to make sure the index is valid
+  console.log(index);
+  // Update the screen with the previous question and buttons
+  updateScreen();
+ 
+}
+//Create restart function to go back to the home page
+function restart() {
+  //The location.reload() method reloads the current URL, like the Refresh button.
+  location.reload()
+  // Update the display
+  updateScreen();
+}
+
+// This is a function to go through the questions and answers. Index 1 is first question
+function updateScreen(){
+  if (index == 1){
+  output.innerText = questionsCoffee[index];
+  myButton1.innerText = answers[0][0]; // [0] first answers array [0] answer smalll
+  myButton2.innerText = answers[0][1];
+  myButton3.style.visibility = "hidden";
+  myButton4.style.visibility = "visible";
+  myButton5.style.visibility = "visible";
+  myButton4.disabled = true; 
+  }
+  //console.log ("works 1");
+
+  if (index == 2){
+  output.innerText = questionsCoffee[index];
+  myButton1.innerText = answers[1][0];
+  myButton2.innerText = answers[1][1];
+  myButton3.style.visibility = "visible";
+  myButton3.innerText = answers[1][2];
+  myButton4.disabled = false; 
+  }
+
+  if (index == 3){
+  output.innerText = questionsCoffee[index];
+  myButton1.innerText = answers[2][0];
+  myButton2.innerText = answers[2][1];
+  myButton3.innerText = answers[2][2];
+  }
+  //console.log ("works 3");
+
+  if (index == 4){
+  output.innerText = questionsCoffee[index];
+  myButton1.innerText = answers[3][0];
+  myButton2.innerText = answers[3][1];
+  myButton3.innerText = answers[3][2];
+  }
+
+  if (index == 5){
+  output.innerText = questionsCoffee[index];
+  myButton1.innerText = answers[4][0];
+  myButton2.innerText = answers[4][1];
+  myButton3.innerText = answers[4][2];
+  }
+}
+
+//Create function to collect the user inputs
+// Store the reference to which button was pushed
+// and references is to collect everything into array
+function myFunction(reference) {
+  console.log("BUTTON PUSHED! = " + reference);  
+
+  input[index] = reference;// this line is showing that input is what user chooses. index is the question
+  console.log(input);
+  index++;
+  
+  updateScreen();
+  
+  //These are the right answers for the perfect coffee
+  //Input 0 is my first question which drink I choose
+  // index 6 is kai einam per pirmus 5 klausimus, 6 duoda ats apibendrinimus
+  if(index == 6 && number <20) {
+    if (input[0] == 1 && input[1] == 1) {
+      console.log("This is a small latte.")
+      validate(smallLatte);
+    }
+    if (input[0] == 1 && input[1] == 2) {
+      console.log("This is a big latte.")
+      validate(bigLatte);
+    }
+    if (input[0] == 2) {
+      console.log("This is a cappuchino.")
+      validate(cappuchino);
+    }
+    if (input[0] == 3 ) {
+      console.log("This is a Cortado.")
+      validate(cortado);
+
+      stop;
+    }
+  //STOP and alert the mesage to the user if timer = 20
+  else if (number == 20){
+  stop;
+  alert("You run out of time! Try again!");
+      }
+  }
+}
+
+//Pushing the wrong anwers in problem array
+function validate(correctAnswers) {
+  
+  var problem = [];
+  var message = [];
+  console.log(correctAnswers);
+  for (var i = 0; i < input.length; i++) {
+      if (input[i] != correctAnswers[i]) { //for loop goes through correct answers and if it does not 
+                                          //mach with user inputs it collects problems to the problem array
+        problem.push(i);
+      }
+  }
+console.log(problem);
+
+//Pushing the messages into mesage array
+//if the is 0 problem, I win the game
+//problem checks for right answers from the answer array and then from validate funktion
+//and collect all the problems
+  if (problem.length < 1) {
+    output.innerText ="";
+    output2.innerText ="WOW! You are a Master Barista!\n \nWould you like to make another cup of coffee?";
+  } else {
+    if (problem.includes(2)) {
+    message.push(" Your coffee is too weak or too strong")
+  }
+  if (problem.includes(3)) {
+    message.push("\n Too much or not enough milk")
+  }
+  if (problem.includes(4)) {
+    message.push("\n Heat milk problem")
+  }
+  if (problem.includes(5)) {
+    message.push("\n Foam problem.")
+  }
+
+  //Giving the final answer about made coffee
+  output.innerText="";
+  output2.innerText = "THERE IS STILL ROOM FOR IMPROVEMENT...\n \nHere is what's wrong with your coffee: \n" + message + "\n \n TRY AGAIN AND BECOME \nA Master Barista!";
+  }
+  myButton1.style.visibility = "hidden";
+  myButton2.style.visibility = "hidden";  
+  myButton3.style.visibility = "hidden";
+  myButton4.style.visibility = "hidden";
+}
+
+
+//NOT WORKING AS EXPECTED!!!!!!!!!!!!
+//Create a time counting function and variables
+var number = 0;
+var timer;
+
+function count() {
+  // Output the number
+  console.log(number);
+  // Update the number
+  number++;
+  // Update the timer to run the count function again
+  clearTimeout(timer);
+  timer = setTimeout(count, 1000);
+}
+
+function stop() {
+  // Clear the timeout for the timer variable
+  console.log("The timer was stopped!");
+  clearTimeout(timer);
+  // Output a message to say that the button was used
+ 
+}
+
+</script>
+</body>
+</html>
